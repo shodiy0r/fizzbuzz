@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color:  aqua;
+}
+.fizzbuzz{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+}
+.form{
+    width: 400px;
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    margin: 150px auto;
+    text-align: center;
+    box-shadow: inset 0px 0px 15px gray,
+                      0px 0px 20px gray;
+                      position: relative;
+}
+.input{
+    width: 90%;
+    height: 40px;
+    border :none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 10px gray;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin : 20px 0;
+    padding-left: 15px;
+}
+.title{
+    margin-bottom: 30px;
+    text-align: start;
+    padding-left: 30px;
+    color: #535050;
+    font-size: 45px;
+    font-weight: bold;
+    font-style: italic;
+    position: relative;
+}
+.title::before{
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 35px;
+    background-color: black;
+    border-radius: 5%;
+    left: 12px;
+    top: 8px;
+}
+.btn{
+    width: 50%;
+    height: 40px;
+    border :none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 10px gray;
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 15vh;
+}
+.btn:active{
+    color: red;
+    border: 2px solid red;
+}
